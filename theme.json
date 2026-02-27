@@ -1,0 +1,7 @@
+{
+  "name": "Corporate Blue",
+  "dataColors": ["#003366", "#4A90E2", "#7CB9E8", "#B0D4F1", "#336699", "#5B9BD5"],
+  "background": "#E8F4F8",
+  "foreground": "#1A1A1A",
+  "tableAccent": "#003366"
+}
