@@ -125,18 +125,16 @@ Saved model outputs:
 
 <h2 style="font-size: 1.4em;">Dashboard (Power BI)</h2>
 
-Power BI dashboards can be built directly from `telco_churn_cleaned.csv`.
+Power BI dashboards are built directly from `telco_churn_cleaned.csv`.
 
 1. Power BI Desktop → **Get Data** → **Text/CSV**
 2. Select `telco_churn_cleaned.csv`
 3. Load and build visuals (contract churn, tenure churn, revenue at risk, high-risk customer table)
 
-If you later add screenshots, place them in the project folder and link them here:
+Exports included in this repo:
 
-- `dashboard_page1.png`
-- `dashboard_page2.png`
-- `dashboard_page3.png`
-- `dashboard_page4.png`
+- Interactive report: `Customer_Churn_Dashboard.pbix`
+- Static export: [`Customer_Churn_Dashboard.pdf`](Customer_Churn_Dashboard.pdf)
 
 <h2 style="font-size: 1.4em;">Business impact</h2>
 

@@ -43,6 +43,6 @@
 
     ESTIMATED IMPACT:
     - Implementing these strategies could reduce churn by 30-40%
-    - Focus on high-risk segments first for maximum ROI
+    - Focus on high-risk segments first where interventions matter most
     - Monthly monitoring and model retraining recommended
     
