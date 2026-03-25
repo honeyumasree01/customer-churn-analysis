@@ -97,6 +97,8 @@ Run `4_modeling.py` to train and evaluate:
 - Logistic Regression (baseline)
 - Random Forest (non-linear model with feature importance)
 
+This model is intended as a prioritization tool rather than a fully automated decision system.
+
 <h3 style="font-size: 1.2em;">Model performance (test set)</h3>
 
 From the latest run:
@@ -160,6 +162,27 @@ python 4_modeling.py
 python 5_sql_analysis.py
 ```
 
+Note: by default the scripts **save charts to disk** and do not pop up plot windows (so runs don’t get stuck waiting for you to close charts).
+
+If you want interactive plots:
+
+**PowerShell (Windows):**
+```bash
+$env:SHOW_PLOTS=1
+python 3_eda_analysis.py
+```
+
+**Command Prompt (Windows):**
+```bash
+set SHOW_PLOTS=1
+python 3_eda_analysis.py
+```
+
+**Mac/Linux:**
+```bash
+SHOW_PLOTS=1 python 3_eda_analysis.py
+```
+
 <h2 style="font-size: 1.4em;">Project outputs</h2>
 
 Core data outputs:
@@ -171,11 +194,17 @@ Core data outputs:
 
 Key charts (sample):
 
-- `churn_by_contract.png`
-- `churn_by_tenure.png`
-- `correlation_heatmap.png`
-- `roc_curve_comparison.png`
-- `feature_importance.png`
+- [`churn_by_contract.png`](churn_by_contract.png)
+- [`churn_by_tenure.png`](churn_by_tenure.png)
+- [`correlation_heatmap.png`](correlation_heatmap.png)
+- [`roc_curve_comparison.png`](roc_curve_comparison.png)
+- [`feature_importance.png`](feature_importance.png)
+
+Quick preview:
+
+![Churn by contract](churn_by_contract.png)
+![Churn by tenure](churn_by_tenure.png)
+![ROC curve comparison](roc_curve_comparison.png)
 
 <h2 style="font-size: 1.4em;">Project structure</h2>
 
@@ -202,7 +231,6 @@ customer_churn_project/
 
 Add your details here before publishing:
 
-- Name:
-- Email:
-- LinkedIn:
+- Name: Honey Umasree Pentakota
+- Email: Humasree01@gmail.com
 - GitHub:
